@@ -1,0 +1,6 @@
+DownloadFrequency: 5s
+GitPushFrequency: 5m
+MysqlDSN: codimd:****REMOVE***@tcp(127.0.0.1:3306)/codimd?charset=utf8
+MarkdownPath: /root/blog/docs
+SourceImagePath: /root/codimd/public/uploads
+Owner: 6d3d21df-ff4b-40ff-8385-ddfc1a049f64

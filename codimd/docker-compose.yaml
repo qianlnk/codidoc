@@ -1,0 +1,14 @@
+version: "3"
+services:
+  codimd:
+    image: nabo.codimd.dev/hackmdio/hackmd:2.0.1
+    environment:
+      - CMD_DB_URL=mysql://codimd:****REMOVE***@12.0.0.1:3306/codimd
+      - CMD_USECDN=false
+    ports:
+      - "3000:3000"
+    volumes:
+      - upload-data:/home/hackmd/app/public/uploads
+    restart: always
+volumes:
+  upload-data: {}
